@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --cor01: #F2F2F2;
+    --cor02: #F2B950;
+    --cor03: #52D9B3;
+    --cor04: #5BD9C2;
+    --cor05: #6BE5F2;
+}
+
+.container {
+    max-width: 1080px;
+    min-width: 450px;
+    margin: auto;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #6be5f2, #5BD9C2, #52D9B3);
+    background-color: var(--cor05);
+}
+
+/* C A B E Ç A L H O */
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #52D9B3, #5BD9C2, #6be5f2);
+    padding: 30px; 
+}
+
+h1 a {
+    color: var(--cor01);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: var(--cor01);
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+nav ul li a:hover {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+/* M A I N */
+
+main .container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#f2f2f29f;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #f2f2f2, transparent);
+    border-radius: 2.5px;
+    color: var(--cor02);
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin: 5px;
+    text-indent: 25px;
+    text-decoration: #52D9B3 underline;
+    color: black;
+}
+
+p {
+    line-height: 30px;
+    text-align: justify; 
+    text-indent: 30px;
+}
+
+section a {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    font-weight: bold;
+    padding: 2px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+img {
+    border-radius: 2px;
+    max-width: 100%;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+/* F O O T E R */
+
+footer p {
+    color: var(--cor01);
+    text-align: center;
+}
+
+footer p a {
+    margin: 5px;
+    color: var(--cor01);
+    text-decoration: none;
+}
